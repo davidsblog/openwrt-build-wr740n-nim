@@ -11,4 +11,3 @@ RUN cd /home &&\
 
 ENV STAGING_DIR=/home/openwrt/openwrt/staging_dir/
 ENV PATH /home/Nim/bin:/home/openwrt/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/:$PATH
-
