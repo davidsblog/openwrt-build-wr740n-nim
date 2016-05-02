@@ -1,4 +1,4 @@
-FROM davidsblog/openwrt-wr740n
+FROM davidsblog/openwrt-build-wr740n
 
 RUN cd /home &&\
     git clone -b master git://github.com/nim-lang/Nim.git  &&\
